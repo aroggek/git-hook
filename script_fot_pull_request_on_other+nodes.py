@@ -6,7 +6,7 @@ import socket
 user='your username'
 ip='ypur ip list or you can read the file with ip's'
 ip_list=ip.replace(' ','').split(',')
-hosts = open('/etc/hosts','r')
+#hosts = open('/etc/hosts','r')
 hostname = socket.gethostname()
 my_host=(socket.gethostbyname(hostname))
 print(ip_list)
