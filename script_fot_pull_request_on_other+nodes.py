@@ -12,4 +12,4 @@ my_host=(socket.gethostbyname(hostname))
 print(ip_list)
 for i in ip_list:
     if i != my_host:
-       b = os.system('$HOME/post-receive.sh' + ' ' + i )
+       b = os.system('<path to script>/post-receive.sh' + ' ' + i )
