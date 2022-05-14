@@ -1,3 +1,3 @@
 #! /bin/bash
 
-ssh <user>@$1 "cd $HOME/git/projects/ ; git pull origin master"
+ssh <user>@$1 "cd <path to your git directory> ; git pull origin master"
