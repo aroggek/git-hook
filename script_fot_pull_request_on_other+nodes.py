@@ -12,4 +12,4 @@ my_host=(socket.gethostbyname(hostname))
 print(ip_list)
 for i in ip_list:
     if i != my_host:
-       b = os.system('ssh ' + user + '@' + i + ' ' + 'cd $HOME/git/... && git pull origin master')
+       b = os.system('$HOME/post-receive.sh' + ' ' + i )
